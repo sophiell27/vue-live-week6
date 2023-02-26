@@ -28,6 +28,7 @@ export default defineStore("adminProductStore", {
                 this.pagination = res.data.pagination;
             } catch (err) {
                 confirm("無法取得產品列表");
+                console.log(err);
             }
                 
             
