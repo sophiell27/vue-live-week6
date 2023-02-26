@@ -51,7 +51,7 @@ app.use(VueAxios, axios)
 
 app.component("VForm", Form),
 app.component("VField", Field),
-app.component("VErrMsg", ErrorMessage),ErrorMessage
+app.component("VErrMsg", ErrorMessage)
 
 
 app.mount('#app')
